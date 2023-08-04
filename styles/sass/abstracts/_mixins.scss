@@ -1,0 +1,14 @@
+@mixin page-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: $spacing-section-padding-vertical $spacing-section-padding-horizontal;
+
+    @media(max-width: 1000px) {
+        padding: $spacing-section-padding-vertical $spacing-section-padding-vertical;
+    }
+
+    @media(max-width: 600px) {
+        padding: $spacing-xxlarge;
+    }
+}

@@ -1,0 +1,21 @@
+@import "../../../styles/sass/abstracts/variables";
+
+.Navbar {
+    background-color: $color-primary;
+    color: $color-white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: $spacing-small $spacing-large;
+
+    &_brand {
+        font-size: $font-large;
+        
+    }
+
+    &_menuIcon {
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

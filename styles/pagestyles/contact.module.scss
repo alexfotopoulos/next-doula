@@ -1,0 +1,6 @@
+@import "../sass/abstracts/variables";
+@import "../sass/abstracts/mixins";
+
+.ContactPage_formSection {
+    @include page-section;
+}

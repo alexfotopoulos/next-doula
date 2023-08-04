@@ -1,0 +1,79 @@
+@import "../../../styles/sass/abstracts/variables";
+
+.ContactForm {
+    width: 70%;
+    padding: $spacing-large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: $border-radius;
+    
+    @media (max-width: 1000px) {
+        width: 100%;
+    }
+
+    &_inputGroup {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        &:not(:last-child) {
+            margin-right: $spacing-medium;
+        }
+    }
+
+    &_row {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: $spacing-medium;
+
+        @media (max-width: 1000px) {
+            flex-direction: column;
+
+            & > :first-child {
+                margin-bottom: $spacing-xxsmall;
+            }
+        }
+    }
+    
+    &_label {
+        margin-bottom: $spacing-xsmall;
+    }
+
+    &_select {
+        width: 100%;
+        height: 3rem;
+        padding-left: $spacing-xsmall;
+    }
+
+    &_input {
+        height: 3rem;
+        padding-left: $spacing-xsmall;
+
+        &_date {
+            height: 3rem;
+            font-family: sans-serif;
+            padding: 0 $spacing-xsmall;
+        }
+    }
+
+    &_textArea {
+        font-family: sans-serif;
+        padding: $spacing-xsmall;
+    }
+
+    &_submitButton {
+        width: 100%;
+        font-size: $font-medium;
+        background-color: $color-blue-dark;
+        color: $color-white;
+        padding: $spacing-small $spacing-medium;
+        border-radius: $border-radius-small;
+        border: none;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
