@@ -11,7 +11,7 @@ export default function Hero() {
                 alt="placeholder hero image"
                 className={styles.Hero_image}
             />
-            <h1 className={styles.Hero_text}>Welcome to Katernaki Doulaki</h1>
+            <h1 className={styles.Hero_text}>Welcome to the Nashville Doula</h1>
         </div>
     );
 }

@@ -1,0 +1,14 @@
+@import "../../../styles/sass/abstracts/variables";
+@import "../../../styles/sass/abstracts/mixins";
+
+.Service {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &_title {
+        @include tertiary-heading;
+        
+    }
+}

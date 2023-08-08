@@ -68,7 +68,7 @@ export default function ContactForm() {
                         className={styles.ContactForm_label}
                         htmlFor="service"
                         style={{
-                            color: errors.includes("service") ? "red" : "black",
+                            color: errors.includes("service") ? "red" : "#3C4443",
                         }}
                     >
                         What service are you most interested in?{" "}
@@ -103,7 +103,7 @@ export default function ContactForm() {
                         className={styles.ContactForm_label}
                         htmlFor="dueDate"
                         style={{
-                            color: errors.includes("service") ? "red" : "black",
+                            color: errors.includes("service") ? "red" : "#3C4443",
                         }}
                     >
                         Estimated due date
@@ -130,7 +130,7 @@ export default function ContactForm() {
                         className={styles.ContactForm_label}
                         htmlFor="firstName"
                         style={{
-                            color: errors.includes("service") ? "red" : "black",
+                            color: errors.includes("service") ? "red" : "#3C4443",
                         }}
                     >
                         First Name {<span style={{ color: "red" }}>*</span>}
@@ -145,7 +145,7 @@ export default function ContactForm() {
                         onChange={(event) =>
                             handleFormUpdate("firstName", event.target.value)
                         }
-                        // required
+                        required
                     />
                 </div>
                 <div className={styles.ContactForm_inputGroup}>
@@ -153,7 +153,7 @@ export default function ContactForm() {
                         className={styles.ContactForm_label}
                         htmlFor="lastName"
                         style={{
-                            color: errors.includes("service") ? "red" : "black",
+                            color: errors.includes("service") ? "red" : "#3C4443",
                         }}
                     >
                         Last Name <span style={{ color: "red" }}>*</span>
@@ -178,7 +178,7 @@ export default function ContactForm() {
                         className={styles.ContactForm_label}
                         htmlFor="email"
                         style={{
-                            color: errors.includes("service") ? "red" : "black",
+                            color: errors.includes("service") ? "red" : "#3C4443",
                         }}
                     >
                         Email <span style={{ color: "red" }}>*</span>
@@ -201,7 +201,7 @@ export default function ContactForm() {
                         className={styles.ContactForm_label}
                         htmlFor="phone"
                         style={{
-                            color: errors.includes("service") ? "red" : "black",
+                            color: errors.includes("service") ? "red" : "#3C4443",
                         }}
                     >
                         Phone Number <span style={{ color: "red" }}>*</span>
@@ -334,7 +334,7 @@ export default function ContactForm() {
                         className={styles.ContactForm_label}
                         htmlFor="birthingPlace"
                         style={{
-                            color: errors.includes("service") ? "red" : "black",
+                            color: errors.includes("service") ? "red" : "#3C4443",
                         }}
                     >
                         Birthing Place <span style={{ color: "red" }}>*</span>
@@ -362,7 +362,7 @@ export default function ContactForm() {
                         className={styles.ContactForm_label}
                         htmlFor="city"
                         style={{
-                            color: errors.includes("service") ? "red" : "black",
+                            color: errors.includes("service") ? "red" : "#3C4443",
                         }}
                     >
                         City <span style={{ color: "red" }}>*</span>
@@ -385,7 +385,7 @@ export default function ContactForm() {
                         className={styles.ContactForm_label}
                         htmlFor="zipCode"
                         style={{
-                            color: errors.includes("service") ? "red" : "black",
+                            color: errors.includes("service") ? "red" : "#3C4443",
                         }}
                     >
                         Zip code <span style={{ color: "red" }}>*</span>

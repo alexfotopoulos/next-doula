@@ -1,7 +1,8 @@
-@import "../sass/abstracts/variables";
 @import "../sass/abstracts/mixins";
+@import "../sass/abstracts/variables";
 
-.ContactPage {
+.FAQPage {
+
     &_headingSection {
         @include page-heading-section;
     }
@@ -10,7 +11,7 @@
         @include primary-heading;
     }
 
-    &_formSection {
+    &_accordianSection {
         @include page-section;
     }
 }
