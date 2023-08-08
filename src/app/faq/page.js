@@ -1,13 +1,15 @@
 import styles from "../../../styles/pagestyles/faq.module.scss";
+import {ControlledAccordion as Accordion} from "@/components/accordian/Accordion";
 
 export default function FAQPage() {
     return (
-        <div className={styles.FAQPage}>
+        <main className={styles.FAQPage}>
             <section className={styles.FAQPage_headingSection}>
-                <h1 className={styles.FAQPage_primaryHeading}>Frequntly Asked Questions</h1>
+                <h1 className={styles.FAQPage_primaryHeading}>Frequently Asked Questions</h1>
             </section>
-            <section className={styles.FAQPage_accordianSection}>
+            <section className={styles.FAQPage_accordionSection}>
+                <Accordion />
             </section>
-        </div>
+        </main>
     );
 }

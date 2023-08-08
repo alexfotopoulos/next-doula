@@ -1,0 +1,15 @@
+@import "../../../styles/sass/abstracts/variables";
+@import "../../../styles/sass/abstracts/mixins";
+
+.Accordion {
+    width: 100%;
+
+    &_label {
+        font-size: $font-medium;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    &_content {
+        font-size: $font-default;
+    }
+}

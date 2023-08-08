@@ -2,7 +2,8 @@
 @import "../sass/abstracts/variables";
 
 .ServicesPage {
-
+    margin: $spacing-xxlarge 0;
+    
     &_headingSection {
         @include page-heading-section;
     }

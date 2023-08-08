@@ -4,7 +4,7 @@ import { servicesData } from "../../../helpers/servicesData";
 
 export default function ServicesPage() {
     return (
-        <div>
+        <main className={styles.ServicesPage}>
             <section className={styles.ServicesPage_headingSection}>
                 <h1 className={styles.ServicesPage_primaryHeading}>Services</h1>
             </section>
@@ -17,6 +17,6 @@ export default function ServicesPage() {
                     />
                 ))}
             </section>
-        </div>
+        </main>
     );
 }

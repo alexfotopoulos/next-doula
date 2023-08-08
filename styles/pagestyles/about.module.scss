@@ -2,6 +2,7 @@
 @import "../sass/abstracts/mixins";
 
 .AboutPage {
+
     &_headingSection {
         @include page-heading-section;
         background-color: $color-white;

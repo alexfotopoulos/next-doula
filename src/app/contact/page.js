@@ -3,10 +3,10 @@ import styles from "../../../styles/pagestyles/contact.module.scss";
 
 export default function ContactPage() {
     return (
-        <div>
+        <main>
             <section className={styles.ContactPage_formSection}>
                 <ContactForm />
             </section>
-        </div>
+        </main>
     );
 }

@@ -1,5 +1,6 @@
 import "../../styles/globals.scss";
 import Navbar from "@/components/navbar/Navbar";
+import Footer from "@/components/footer/Footer";
 import { Roboto } from "next/font/google";
 
 const roboto = Roboto({
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
             <body style={roboto.style}>
                 <Navbar />
                 {children}
+                <Footer />
             </body>
         </html>
     );

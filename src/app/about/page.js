@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function AboutPage() {
     return (
-        <div>
+        <main>
             <section className={styles.AboutPage_introSection}>
                 <Image
                     src="/images/katherine_about_heading.JPG"
@@ -76,6 +76,6 @@ export default function AboutPage() {
                     repellat? Ea, eos sit!
                 </p>
             </section>
-        </div>
+        </main>
     );
 }

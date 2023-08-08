@@ -1,0 +1,22 @@
+@import "../../../styles/sass/abstracts/variables";
+@import "../../../styles/sass/abstracts/mixins";
+
+.Footer {
+    background-color: $color-grey;
+
+    &_mainSection {
+        @include page-section;
+    }
+
+    &_title {
+        color: $color-white;
+    }
+
+    &_iconContainer {
+        margin-top: $spacing-small;
+
+        & > a:first-of-type {
+            margin-right: $spacing-small;
+        }
+    }
+}

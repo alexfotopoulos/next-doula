@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Hero() {
     return (
-        <div>
+        <section>
             <Image
                 src="/images/hero-placeholder.jpg"
                 width={500}
@@ -12,6 +12,6 @@ export default function Hero() {
                 className={styles.Hero_image}
             />
             <h1 className={styles.Hero_text}>Welcome to the Nashville Doula</h1>
-        </div>
+        </section>
     );
 }
