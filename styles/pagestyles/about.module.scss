@@ -3,15 +3,6 @@
 
 .AboutPage {
 
-    &_headingSection {
-        @include page-heading-section;
-        background-color: $color-white;
-    }
-
-    &_primaryHeading {
-        @include primary-heading;
-    }
-
     &_introSection {
         width: 100%;
         height: calc(100vh - 6.4rem);
@@ -30,6 +21,11 @@
 
             @media (max-width: 900px) {
                 width: 90%;
+                margin: $spacing-large 0;
+            }
+
+            @media (max-width: 600px) {
+                width: 75%;
                 margin: $spacing-large 0;
             }
         }

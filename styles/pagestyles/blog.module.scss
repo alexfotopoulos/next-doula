@@ -1,7 +1,7 @@
-@import "../sass/abstracts/mixins";
 @import "../sass/abstracts/variables";
+@import "../sass/abstracts/mixins";
 
-.ServicesPage {
+.BlogPage {
     padding: $spacing-section-padding-vertical 0;
 
     &_headingSection {
@@ -12,12 +12,12 @@
         @include primary-heading;
     }
 
-    &_servicesContainer {
-        width: 80%;
+    &_blogsContainer {
+        width: 70%;
         margin: auto;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-gap: 4rem;
+        grid-gap: 1rem;
         justify-items: center;
 
         @media (max-width: 700px) {
