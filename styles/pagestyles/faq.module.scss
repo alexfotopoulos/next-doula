@@ -3,6 +3,7 @@
 
 .FAQPage {
     padding: $spacing-section-padding-vertical 0;
+    min-height: 77vh;
 
     &_headingSection {
         @include page-heading-section;

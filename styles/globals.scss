@@ -22,3 +22,15 @@ body {
     box-sizing: border-box;
     color: $color-grey;
 }
+
+.ComingSoonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ComingSoonText {
+    font-size: $font-large;
+    color: $color-blue-light;
+    font-family: cursive
+}

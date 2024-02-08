@@ -65,7 +65,7 @@ export default function Navbar() {
     return (
         <nav className={styles.Navbar}>
             <Link className={styles.Navbar_brand} href="/">
-                Logo
+                YCDS
             </Link>
             {!showModal && content}
             {showModal && <NavbarModal onClose={handleHideModal} />}

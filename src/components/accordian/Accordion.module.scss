@@ -13,3 +13,9 @@
         font-size: $font-default;
     }
 }
+
+.ExternalLink {
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: underline;
+}
