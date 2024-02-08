@@ -1,4 +1,4 @@
-import ContactForm from "@/components/contactForm/ContactForm";
+// import ContactForm from "@/components/contactForm/ContactForm";
 import styles from "../../../styles/pagestyles/contact.module.scss";
 
 export default function ContactPage() {
