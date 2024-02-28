@@ -8,7 +8,10 @@ export default function ServicesPage() {
             <section className={styles.ServicesPage_headingSection}>
                 <h1 className={styles.ServicesPage_primaryHeading}>Services</h1>
             </section>
-            <section className={styles.ServicesPage_servicesContainer}>
+            <section className={"ComingSoonContainer"}>
+                <p className={"ComingSoonText"}>Coming Soon...</p>
+            </section>
+            {/* <section className={styles.ServicesPage_servicesContainer}>
                 {servicesData.map((s) => (
                     <Service
                         key={s.id}
@@ -16,7 +19,7 @@ export default function ServicesPage() {
                         description={s.description}
                     />
                 ))}
-            </section>
+            </section> */}
         </main>
     );
 }
