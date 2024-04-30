@@ -5,7 +5,7 @@ export default function Hero() {
     return (
         <section className={styles.Hero}>
             <Image
-                src="/images/Website Homepage.jpg"
+                src="/images/Website Homepage.JPG"
                 width={500}
                 height={500}
                 alt="placeholder hero image"
