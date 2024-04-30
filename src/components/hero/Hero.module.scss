@@ -1,6 +1,7 @@
 @import "../../../styles/sass/abstracts/variables";
 
 .Hero {
+    margin-bottom: $spacing-large;
 
     &_image {
         object-fit: cover;

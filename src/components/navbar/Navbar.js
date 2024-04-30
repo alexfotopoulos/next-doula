@@ -65,7 +65,12 @@ export default function Navbar() {
     return (
         <nav className={styles.Navbar}>
             <Link className={styles.Navbar_brand} href="/">
-                YCDS
+                <Image 
+                    src="/images/Logo.jpg"
+                    width={50}
+                    height={50}
+                    alt="your choice doula services logo"
+                />
             </Link>
             {!showModal && content}
             {showModal && <NavbarModal onClose={handleHideModal} />}

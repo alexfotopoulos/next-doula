@@ -32,7 +32,8 @@ export function ControlledAccordion() {
                             width: "100%",
                             flexShrink: 0,
                             fontSize: "1.6rem",
-                            color: "#00A8C9",
+                            color: "rgb(68, 197, 176)",
+                            fontWeight: "bold"
                         }}
                     >
                         What is a doula? What is a full spectrum doula?
@@ -90,7 +91,8 @@ export function ControlledAccordion() {
                             width: "100%",
                             flexShrink: 0,
                             fontSize: "1.6rem",
-                            color: "#00A8C9",
+                            color: "rgb(68, 197, 176)",
+                            fontWeight: "bold"
                         }}
                     >
                         What are the benefits of having a doula?
@@ -129,7 +131,8 @@ export function ControlledAccordion() {
                             width: "100%",
                             flexShrink: 0,
                             fontSize: "1.6rem",
-                            color: "#00A8C9",
+                            color: "rgb(68, 197, 176)",
+                            fontWeight: "bold"
                         }}
                     >
                         What is the difference between a doula and a midwife?
@@ -191,7 +194,8 @@ export function ControlledAccordion() {
                             width: "100%",
                             flexShrink: 0,
                             fontSize: "1.6rem",
-                            color: "#00A8C9",
+                            color: "rgb(68, 197, 176)",
+                            fontWeight: "bold"
                         }}
                     >
                         Is a doula covered by insurance?

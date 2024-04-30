@@ -1,6 +1,7 @@
 import styles from "./Footer.module.scss";
 import Image from "next/image";
 import Link from "next/link";
+import LinkButton from "../linkButton/LinkButton";
 
 export default function Footer() {
     return (
@@ -9,6 +10,13 @@ export default function Footer() {
                 <h1 className={styles.Footer_title}>
                     Your Choice Doula Services
                 </h1>
+                <Image
+                    src="/images/Logo.jpg"
+                    width={100}
+                    height={100}
+                    alt="your choice doula services logo"
+                    className={styles.Footer_logo}
+                />
                 <div className={styles.Footer_iconContainer}>
                     <Link
                         href="https://www.instagram.com/yourchoicedoulaservices/"
@@ -33,6 +41,7 @@ export default function Footer() {
                         />
                     </Link>
                 </div>
+                <LinkButton text="Contact Me" url="/contact" />
             </section>
         </div>
     );

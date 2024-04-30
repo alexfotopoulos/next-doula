@@ -1,0 +1,14 @@
+@import "../../../styles/sass/abstracts/variables";
+
+.LinkButton {
+    text-align: center;
+    padding: $spacing-xsmall $spacing-medium;
+    border-radius: $border-radius-small;
+    color: $color-white;
+    background-color: $color-blue-dark;
+    transition: all .2s;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}

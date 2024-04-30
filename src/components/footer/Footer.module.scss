@@ -2,21 +2,27 @@
 @import "../../../styles/sass/abstracts/mixins";
 
 .Footer {
-    background-color: $color-grey;
+    background-color: $color-primary;
 
     &_mainSection {
         @include page-section;
+        padding: $spacing-xxlarge $spacing-section-padding-horizontal;
     }
 
     &_title {
-        color: $color-white;
+        color: $color-grey;
     }
 
     &_iconContainer {
-        margin-top: $spacing-small;
+        margin-top: $spacing-large;
+        margin-bottom: $spacing-large;
 
         & > a:first-of-type {
             margin-right: $spacing-small;
         }
+    }
+
+    &_logo {
+        margin-top: $spacing-medium;
     }
 }
