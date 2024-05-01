@@ -23,6 +23,7 @@
 
         @media(max-width: 800px) {
             flex-direction: column;
+            padding: 1rem 0;
         }
     }
 
@@ -32,9 +33,20 @@
 
     &_image {
         margin: 0 $spacing-large;
+
+        @media(max-width: 800px) {
+            margin: 0;
+        }
     }
 
     @media(max-width: 800px) {
         flex-direction: column;
+        padding: 1rem 0;
+    }
+
+    &_description {
+        @media(max-width: 800px) {
+            padding: 0 2rem;
+        }
     }
 }
