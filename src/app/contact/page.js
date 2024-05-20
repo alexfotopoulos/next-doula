@@ -9,7 +9,7 @@ export default function ContactPage() {
                 <h1 className={styles.ContactPage_primaryHeading}>Contact</h1>
             </section>
             <section className={"ComingSoonContainer"}>
-                <p className={styles.ContactPage_paragraph}>I'd love to chat about your needs - send me an email to connect!</p>
+                <p className={styles.ContactPage_paragraph}>I&apos;d love to chat about your needs - send me an email to connect!</p>
                 <a className="ContactLink" href="mailto:yourchoicedoulaservices@gmail.com">Contact Me</a>
             </section>
             {/* <section className={styles.ContactPage_formSection}>
