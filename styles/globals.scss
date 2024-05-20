@@ -25,6 +25,7 @@ body {
 
 .ComingSoonContainer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -33,4 +34,17 @@ body {
     font-size: $font-large;
     color: $color-teal-light;
     font-family: cursive
+}
+
+.ContactLink {
+    text-align: center;
+    padding: $spacing-xsmall $spacing-medium;
+    border-radius: $border-radius-small;
+    color: $color-white;
+    background-color: $color-blue-dark;
+    transition: all .2s;
+
+    &:hover {
+        transform: scale(1.1);
+    }
 }

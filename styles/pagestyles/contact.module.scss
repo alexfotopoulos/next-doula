@@ -16,4 +16,10 @@
     &_formSection {
         @include page-section;
     }
+
+    &_paragraph {
+        margin-bottom: $spacing-medium;
+        padding: 0 $spacing-large;
+        text-align: center;
+    }
 }

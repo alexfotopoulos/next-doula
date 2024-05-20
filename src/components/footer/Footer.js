@@ -7,9 +7,6 @@ export default function Footer() {
     return (
         <div className={styles.Footer}>
             <section className={styles.Footer_mainSection}>
-                <h1 className={styles.Footer_title}>
-                    Your Choice Doula Services
-                </h1>
                 <Image
                     src="/images/Logo.jpg"
                     width={100}
@@ -24,8 +21,8 @@ export default function Footer() {
                     >
                         <Image
                             src="/icons/instagram-line.svg"
-                            width={25}
-                            height={25}
+                            width={45}
+                            height={45}
                             alt="instagram"
                         />
                     </Link>
@@ -35,13 +32,15 @@ export default function Footer() {
                     >
                         <Image
                             src="/icons/facebook-box-line.svg"
-                            width={25}
-                            height={25}
+                            width={45}
+                            height={45}
                             alt="facebook"
                         />
                     </Link>
                 </div>
-                <LinkButton text="Contact Me" url="/contact" />
+                <div className={styles.Footer_contactButton}>
+                    <a className="ContactLink" href="mailto:yourchoicedoulaservices@gmail.com">Contact Me</a>
+                </div>
             </section>
         </div>
     );

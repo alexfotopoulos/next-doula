@@ -25,4 +25,10 @@
     &_logo {
         margin-top: $spacing-medium;
     }
+
+    &_contactButton {
+        @media(max-width: 800px) {
+            margin-bottom: 15rem;
+        }
+    }
 }

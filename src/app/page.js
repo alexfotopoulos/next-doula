@@ -25,21 +25,22 @@ export default function Home() {
                 </p>
             </section>
             <section className={styles.HomePage_servicesContainer}>
-                {servicesTilesData.map((s) => (
-                    <ServicesTile 
-                        key={s.title}
-                        title={s.title}
-                        text={s.text}
-                        image={s.image}
-                        anchor={s.anchor}
-                    />
-                ))}
+                {servicesTilesData.map((s) => {
+                    if (s.title !== "Birth and Postpartum Support Bundles") {
+                        return (<ServicesTile
+                            key={s.title}
+                            title={s.title}
+                            text={s.text}
+                            image={s.image}
+                            anchor={s.anchor}
+                        />);
+                    }
+                })}
             </section>
             <section className={styles.HomePage_notSure}>
                 <p className={styles.HomePage_notSure_text}>Not sure if a Doula is right for you? Check out our FAQs</p>
-                <LinkButton className={styles.HomePage_notSure_button} url="/faq" text="FAQ"/>
+                <LinkButton className={styles.HomePage_notSure_button} url="/faq" text="FAQ" />
             </section>
         </main>
     );
 }
- 

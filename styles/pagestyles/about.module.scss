@@ -2,113 +2,115 @@
 @import "../sass/abstracts/mixins";
 
 .AboutPage {
+  &_introSection {
+    width: 100%;
+    height: calc(100vh - 6.4rem);
+    background-color: $color-white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 
-    &_introSection {
-        width: 100%;
-        height: calc(100vh - 6.4rem);
-        background-color: $color-white;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-
-        @media (max-width: 900px) {
-            flex-direction: column;
-        }
-
-        &_image {
-            object-fit: cover;
-            border-radius: $border-radius;
-
-            @media (max-width: 900px) {
-                width: 90%;
-                margin: $spacing-large 0;
-            }
-
-            @media (max-width: 600px) {
-                width: 75%;
-                margin: $spacing-large 0;
-            }
-        }
-
-        &_text {
-            width: 40%;
-            font-size: $font-large;
-            color: $color-white;
-            font-style: italic;
-            line-height: 4.5rem;
-            color: $color-primary;
-
-            @media (max-width: 900px) {
-                width: 90%;
-                text-align: center;
-                margin-bottom: $spacing-large;
-                font-size: $font-medium;
-                line-height: 3rem;
-            }
-        }
+    @media (max-width: 900px) {
+      flex-direction: column;
     }
 
-    &_infoSection {
-        background-color: rgba(68, 197, 175, .75);
-        color: $color-grey;
-        @include page-section;
+    &_image {
+      object-fit: cover;
+      border-radius: $border-radius;
 
-        &_heading {
-            @include secondary-heading;
-        }
+      @media (max-width: 900px) {
+        width: 90%;
+        margin: $spacing-large 0;
+      }
 
-        &_textContainer {
-            margin-bottom: $spacing-large;
-        }
-
-        &_text {
-            columns: 2;
-            column-gap: 8rem;
-            letter-spacing: .1rem;
-
-            @media(max-width: 800px) {
-                columns: 1;
-            }
-        }
-
-        &_blogLink {
-            text-align: center;
-            margin-top: $spacing-xlarge;
-            padding: $spacing-xsmall $spacing-medium;
-            border-radius: $border-radius-small;
-            color: $color-white;
-            background-color: $color-blue-dark;
-            transition: all .2s;
-
-            &:hover {
-                transform: scale(1.1);
-            }
-        }
+      @media (max-width: 600px) {
+        width: 75%;
+        margin: $spacing-large 0;
+      }
     }
 
-    &_approachSection {
-        background-color: rgba(68, 197, 175, .5);
-        color: $color-grey;
-        @include page-section;
+    &_text {
+      width: 40%;
+      font-size: $font-large;
+      color: $color-white;
+      font-style: italic;
+      line-height: 4.5rem;
+      color: $color-primary;
 
-        &_heading {
-            @include secondary-heading;
-        }
-
-        &_text {
-            columns: 2;
-            column-gap: 8rem;
-            letter-spacing: .1rem;
-
-            @media(max-width: 800px) {
-                columns: 1;
-            }
-        }
+      @media (max-width: 900px) {
+        width: 90%;
+        text-align: center;
+        margin-bottom: $spacing-large;
+        font-size: $font-medium;
+        line-height: 3rem;
+      }
     }
+  }
+
+  &_infoSection {
+    background-color: rgba(68, 197, 175, 0.75);
+    color: $color-grey;
+    @include page-section;
+
+    &_heading {
+      @include secondary-heading;
+    }
+
+    &_textContainer {
+      margin-bottom: $spacing-large;
+    }
+
+    &_text {
+      columns: 2;
+      column-gap: 8rem;
+      letter-spacing: 0.1rem;
+
+      @media (max-width: 800px) {
+        columns: 1;
+      }
+    }
+
+    &_blogLink {
+      text-align: center;
+      margin-top: $spacing-xlarge;
+      padding: $spacing-xsmall $spacing-medium;
+      border-radius: $border-radius-small;
+      color: $color-white;
+      background-color: $color-blue-dark;
+      transition: all 0.2s;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  &_approachSection {
+    background-color: rgba(68, 197, 175, 0.5);
+    color: $color-grey;
+    @include page-section;
+
+    &_heading {
+      @include secondary-heading;
+    }
+
+    &_text {
+      letter-spacing: 0.1rem;
+
+      @media (max-width: 800px) {
+        columns: 1;
+      }
+    }
+
+    &_badt {
+      height: 25rem;
+      width: 25rem;
+    }
+  }
 }
 
 .ExternalLink {
-    cursor: pointer;
-    font-weight: bold;
-    text-decoration: underline;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: underline;
 }

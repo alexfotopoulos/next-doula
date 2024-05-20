@@ -50,8 +50,8 @@ export default function Navbar() {
                 setContent(
                     <Image
                         src="/icons/menu-line.svg"
-                        width={20}
-                        height={20}
+                        width={30}
+                        height={30}
                         alt="menu icon"
                         className={styles.Navbar_menuIcon}
                         onClick={handleShowModal}
@@ -65,12 +65,13 @@ export default function Navbar() {
     return (
         <nav className={styles.Navbar}>
             <Link className={styles.Navbar_brand} href="/">
-                <Image 
+                {/* <Image 
                     src="/images/Logo.jpg"
                     width={50}
                     height={50}
                     alt="your choice doula services logo"
-                />
+                /> */}
+                Your Choice Doula Services
             </Link>
             {!showModal && content}
             {showModal && <NavbarModal onClose={handleHideModal} />}

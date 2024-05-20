@@ -156,6 +156,9 @@ export default function AboutPage() {
                     </a>{" "}
                     to better understand my approach to doula work.
                 </p>
+                <div>
+                    <a href="https://www.badt.directory/tennessee/nashville/doula/katherine-kat-fotopoulos?from=badge" title="Find me on Birthing Advocacy Doula Trainings | Birthworker Directory" target="_blank"><img className={styles.AboutPage_approachSection_badt} src="https://www.badt.directory/images/2_1.png" border="0" /> </a>
+                </div>
             </section>
         </main>
     );

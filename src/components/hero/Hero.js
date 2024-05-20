@@ -1,5 +1,12 @@
 import styles from "./Hero.module.scss";
 import Image from "next/image";
+import { Allura } from "next/font/google";
+
+const allura = Allura({
+    subsets: ["latin"],
+    weight: ["400"],
+    variable: "--font-allura",
+});
 
 export default function Hero() {
     return (
@@ -11,7 +18,7 @@ export default function Hero() {
                 alt="placeholder hero image"
                 className={styles.Hero_image}
             />
-            {/* <h1 className={styles.Hero_text}>Welcome to Your Choice Doula Services</h1> */}
+            <h1 className={styles.Hero_text}>Welcome</h1>
         </section>
     );
 }
