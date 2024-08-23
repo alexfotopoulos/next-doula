@@ -89,6 +89,11 @@
     background-color: rgba(68, 197, 175, 0.5);
     color: $color-grey;
     @include page-section;
+    padding-bottom: 0;
+
+    @media (max-width: 1000px) {
+      padding-bottom: 0;
+    }
 
     &_heading {
       @include secondary-heading;

@@ -9,7 +9,7 @@
     padding: $spacing-large;
     border-radius: $border-radius-small;
     box-shadow: $shadow-soft;
-    text-align: center;
+    text-align: left;
 
     &:nth-of-type(2n) {
         width: 100%;
@@ -19,10 +19,10 @@
         padding: $spacing-large;
         border-radius: $border-radius-small;
         box-shadow: $shadow-soft;
-        text-align: center;
 
         @media(max-width: 800px) {
             flex-direction: column;
+            width: 95%;
             padding: 1rem 0;
         }
     }
@@ -42,6 +42,12 @@
     @media(max-width: 800px) {
         flex-direction: column;
         padding: 1rem 0;
+        width: 95%;
+    }
+
+    &_title {
+        @include tertiary-heading;
+        margin-top: $spacing-small;
     }
 
     &_description {

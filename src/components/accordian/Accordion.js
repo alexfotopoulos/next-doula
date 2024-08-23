@@ -212,7 +212,7 @@ export function ControlledAccordion() {
                             target="_blank"
                         >growing research about the significant impact doula care can make on maternal morbidity and mortality rates</a>, especially in certain geographic regions and among Black mothers, most insurance plans unfortunately do not cover doula services, nor CPM services for that matter. However, it is always a good idea to check your specific insurance plan! <a
                         className={styles.ExternalLink}
-                        href="https://www.uhccommunityandstate.com/content/topic-profiles/executive-summaries/doula-care-now-covered-by-medicaid-in-several-states"
+                        href="https://healthlaw.org/doula-medicaid-project-february-2024-state-roundup/"
                         target="_blank"
                     >Some doula care is now covered by Medicaid in several states</a>.
                     </Typography>

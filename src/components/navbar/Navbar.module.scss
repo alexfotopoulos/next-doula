@@ -7,10 +7,12 @@
     justify-content: space-between;
     align-items: center;
     padding: $spacing-xsmall $spacing-large;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 
     &_brand {
         font-size: $font-medium;
-        font-family: cursive;
     }
 
     &_menuIcon {

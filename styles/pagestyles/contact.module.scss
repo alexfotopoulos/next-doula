@@ -5,6 +5,11 @@
     padding: $spacing-section-padding-vertical 0;
     height: 77vh;
 
+    @media(max-width: 800px) {
+        padding: $spacing-section-padding-vertical-mobile 0;
+    }
+
+
     &_headingSection {
         @include page-heading-section;
     }
@@ -21,5 +26,6 @@
         margin-bottom: $spacing-medium;
         padding: 0 $spacing-large;
         text-align: center;
+        font-size: $font-medium;
     }
 }

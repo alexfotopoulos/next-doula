@@ -15,7 +15,7 @@ export const servicesTilesData = [
         title: "Birth and Postpartum Support Bundles",
         anchor: "Birth_and_Postpartum_Support_Bundles",
         image: "/images/servicesImages/BirthAndPostpartumSupportBundles.JPG",
-        description: "I offer discounted rates for clients seeking support for both birth and postpartum"
+        description: "I offer discounted rates for clients seeking support for both birth and postpartum."
     },
     {
         title: "Sibling Support",
