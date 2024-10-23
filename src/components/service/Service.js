@@ -1,7 +1,7 @@
 import styles from "./Service.module.scss";
 import Image from "next/image";
 
-export default function Service({ image, title, description, anchor }) {
+export default function Service({ image, title, description, anchor, price }) {
     return (
         <div className={styles.Service} id={anchor}>
             <Image
@@ -14,6 +14,7 @@ export default function Service({ image, title, description, anchor }) {
             <div>
                 <h2 className={styles.Service_title}>{title}</h2>
                 <p className={styles.Service_description}>{description}</p>
+                <ul className={styles.Service_price}>{price.length > 0 && <span>Investment:</span>}{price.map(p => <li key={p}>{p}</li>)}</ul>
             </div>
         </div>
     );

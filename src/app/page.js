@@ -1,7 +1,7 @@
 import Hero from "@/components/hero/Hero";
 import Image from "next/image";
 import ServicesTile from "@/components/servicesTile/ServicesTile";
-import { servicesTilesData } from "../../helpers/servicesTilesData";
+import { servicesData } from "../../helpers/servicesData";
 import styles from "../../styles/pagestyles/home.module.scss";
 import LinkButton from "@/components/linkButton/LinkButton";
 
@@ -25,7 +25,7 @@ export default function Home() {
                 </p>
             </section>
             <section className={styles.HomePage_servicesContainer}>
-                {servicesTilesData.map((s) => {
+                {servicesData.map((s) => {
                     if (s.title !== "Birth and Postpartum Support Bundles") {
                         return (<ServicesTile
                             key={s.title}

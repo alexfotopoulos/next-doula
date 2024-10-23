@@ -6,7 +6,9 @@
 
     &_introHeading {
         @include primary-heading;
+        margin: 0 auto;
         margin-bottom: $spacing-large;
+        width: 90%;
     }
 
     &_introSection {

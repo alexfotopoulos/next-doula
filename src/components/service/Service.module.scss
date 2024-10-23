@@ -48,11 +48,32 @@
     &_title {
         @include tertiary-heading;
         margin-top: $spacing-small;
+        text-decoration: underline;
+
     }
 
     &_description {
         @media(max-width: 800px) {
             padding: 0 2rem;
+        }
+    }
+
+    &_price {
+        text-align: center;
+        font-size: $font-small;
+        font-weight: bold;
+        color: $color-blue-dark;
+        margin: 0 auto;
+        margin-top: $spacing-xsmall;
+        list-style: none;
+        width: 95%;
+
+        & > span {
+            // text-decoration: underline;
+        }
+
+        & > li {
+            margin-top: $spacing-xsmall;
         }
     }
 }
