@@ -10,7 +10,7 @@ export const servicesData = [
         title: "Postpartum Support",
         anchor: "Postpartum_Support",
         image: "/images/servicesImages/PostpartumSupport.JPG",
-        price: ["Starting at $800 for 20 hours and increases dependent upon on hours of support needed"],
+        price: ["Starting at $800 for 20 hours and increases dependent upon hours of support needed"],
         description: "Doula support doesn’t have to end once a baby is born! In fact, for some individuals and families postpartum support is even more critical and beneficial than labor and birth support. Many cultures observe a 30 or 40 day period after birth where family and community focus on nourishing and caring for the new parent so that they can rest, recover, and transition to the next phase of life in as supported a manner as possible."
     },
     {
