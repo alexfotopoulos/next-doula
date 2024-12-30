@@ -18,7 +18,6 @@ export default function Hero() {
                 alt="placeholder hero image"
                 className={styles.Hero_image}
             />
-            <h1 className={styles.Hero_text}>Welcome</h1>
         </section>
     );
 }

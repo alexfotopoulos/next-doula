@@ -20,9 +20,6 @@ export default function NavbarContent() {
                 <Link className={styles.Navbar_link} href="/contact">
                     Contact
                 </Link>
-                <Link className={styles.Navbar_link} href="/resources">
-                    Resources
-                </Link>
             </div>
         </>
     );

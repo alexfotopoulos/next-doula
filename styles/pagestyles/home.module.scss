@@ -6,6 +6,7 @@
 
     &_introHeading {
         @include primary-heading;
+        color: $color-blue-dark;
         margin: 0 auto;
         margin-bottom: $spacing-large;
         width: 90%;

@@ -1,3 +1,5 @@
+@import "../../../styles/sass/abstracts/variables";
+
 .ServicesTile {
     display: flex;
     flex-direction: column;
@@ -6,6 +8,7 @@
     
     &_title {
         text-align: center;
+        color: $color-blue-dark;
     }
 
     &_image {

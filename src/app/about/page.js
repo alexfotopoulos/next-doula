@@ -106,7 +106,7 @@ export default function AboutPage() {
                         and have difficult conversations in a productive way. When I
                         decided to study accounting in college, I remember one of my
                         best friends joking, “But you’re too fun to be an
-                        accountant!” Accountancy has come along way since the
+                        accountant!” Accountancy has come a long way since the
                         1980s’s boring stuffy shapeless business suits and
                         briefcases stuffed with calculators and pencils. But I
                         digress…

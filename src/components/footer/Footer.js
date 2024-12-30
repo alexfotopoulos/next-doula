@@ -9,8 +9,8 @@ export default function Footer() {
             <section className={styles.Footer_mainSection}>
                 <Image
                     src="/images/Logo.jpg"
-                    width={100}
-                    height={100}
+                    width={250}
+                    height={250}
                     alt="your choice doula services logo"
                     className={styles.Footer_logo}
                 />
