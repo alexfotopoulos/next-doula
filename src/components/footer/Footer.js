@@ -39,7 +39,7 @@ export default function Footer() {
                     </Link>
                 </div>
                 <div className={styles.Footer_contactButton}>
-                    <a className="ContactLink" href="mailto:yourchoicedoulaservices@gmail.com">Contact Me</a>
+                    <a href="mailto:yourchoicedoulaservices@gmail.com">Contact Me</a>
                 </div>
             </section>
         </div>
