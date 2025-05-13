@@ -119,3 +119,20 @@
   font-weight: bold;
   text-decoration: underline;
 }
+
+.BadgeContainer {
+  display: flex;
+  align-items: center;
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+  }
+}
+
+.lgbtBadge {
+  margin-bottom: $spacing-medium;
+}
+
+.icanBadge {
+  margin: 50px;
+}

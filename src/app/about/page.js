@@ -156,8 +156,16 @@ export default function AboutPage() {
                     </a>{" "}
                     to better understand my approach to doula work.
                 </p>
-                <div>
+                <div className={styles.BadgeContainer}>
                     <a href="https://www.badt.directory/tennessee/nashville/doula/katherine-kat-fotopoulos?from=badge" title="Find me on Birthing Advocacy Doula Trainings | Birthworker Directory" target="_blank"><img className={styles.AboutPage_approachSection_badt} src="/images/CertifiedDoulaGraphic.png" border="0" /> </a>
+                    <a className={styles.lgbtBadge} href="https://www.lgbtqiahub.com/tennessee/nashville/health-medical/your-choice-doula-services?from=badge" title="Find me on The LGBTQIA Hub" target="_blank"><img src="https://www.lgbtqiahub.com/images/LGBTQIA-Hub-Member-Badge-250x250.png" style={{ border: "none" }} /></a>
+                    <Image
+                        src="/images/icanBadge.png"
+                        width={200}
+                        height={200}
+                        alt="ican badge"
+                        className={styles.icanBadge}
+                    />
                 </div>
             </section>
         </main>
