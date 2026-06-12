@@ -124,7 +124,7 @@ export default function AboutPage() {
                         Trainings).
                     </p>
                 </div>
-                <LinkButton text="Read more about my birth stories here" url="/blog" />
+                <LinkButton text="Read more about my birth stories here" url="https://yourchoicedoulaservices.substack.com/" />
             </section>
             <section className={styles.AboutPage_approachSection}>
                 <h2 className={styles.AboutPage_approachSection_heading}>

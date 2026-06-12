@@ -42,13 +42,6 @@ export default function NavbarModal(props) {
                     </Link>
                     <Link
                         className={styles.Modal_link}
-                        href="/blog"
-                        onClick={handleClick}
-                    >
-                        Blog
-                    </Link>
-                    <Link
-                        className={styles.Modal_link}
                         href="/contact"
                         onClick={handleClick}
                     >

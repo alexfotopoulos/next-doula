@@ -14,9 +14,6 @@ export default function NavbarContent() {
                 <Link className={styles.Navbar_link} href="/faq">
                     FAQ
                 </Link>
-                <Link className={styles.Navbar_link} href="/blog">
-                    Blog
-                </Link>
                 <Link className={styles.Navbar_link} href="/contact">
                     Contact
                 </Link>
